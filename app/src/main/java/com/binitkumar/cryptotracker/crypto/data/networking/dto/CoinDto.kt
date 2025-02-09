@@ -11,5 +11,5 @@ data class CoinDto(
     val name : String,
     val marketCapUsd : Double,
     val priceUsd : Double,
-    val changePercentage24hr : Double,
+    val changePercent24Hr : Double,
 )

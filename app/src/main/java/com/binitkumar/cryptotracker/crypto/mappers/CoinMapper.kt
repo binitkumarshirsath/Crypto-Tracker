@@ -11,6 +11,6 @@ fun CoinDto.toCoin():Coin{
         name = name,
         marketCapUSD = marketCapUsd,
         priceUSD = priceUsd,
-        changePercentage24Hr = changePercentage24hr
+        changePercentage24Hr = changePercent24Hr
     )
 }

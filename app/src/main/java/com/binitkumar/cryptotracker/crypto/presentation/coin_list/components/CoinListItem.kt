@@ -27,6 +27,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.util.fastRoundToInt
 import com.binitkumar.cryptotracker.crypto.domain.Coin
 import com.binitkumar.cryptotracker.crypto.presentation.model.CoinUi
 import com.binitkumar.cryptotracker.crypto.presentation.model.toCoinUi
@@ -42,7 +43,7 @@ fun CoinListItem(
     val textColor = if (isSystemInDarkTheme()) Color.White else Color.Black
 
     Row(
-        modifier.fillMaxWidth(),
+        modifier.fillMaxWidth().padding(horizontal = 10.dp, vertical = 15.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(16.dp)
     )
@@ -72,7 +73,7 @@ fun CoinListItem(
 
         Column(horizontalAlignment = Alignment.End) {
             Text(
-                text = "$ ${coinUi.marketCapUSD.formattedValue}",
+                text = "$ ${coinUi.priceUSD.formattedValue}",
                 fontSize = 14.sp,
                 fontWeight = FontWeight.Bold,
                 color = textColor
