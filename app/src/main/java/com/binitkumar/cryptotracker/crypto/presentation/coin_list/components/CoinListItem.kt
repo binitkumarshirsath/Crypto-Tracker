@@ -1,6 +1,7 @@
 package com.binitkumar.cryptotracker.crypto.presentation.coin_list.components
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -43,7 +44,7 @@ fun CoinListItem(
     val textColor = if (isSystemInDarkTheme()) Color.White else Color.Black
 
     Row(
-        modifier.fillMaxWidth().padding(horizontal = 10.dp, vertical = 15.dp),
+        modifier.fillMaxWidth().padding(horizontal = 10.dp, vertical = 15.dp).clickable { onClick.invoke() },
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(16.dp)
     )
