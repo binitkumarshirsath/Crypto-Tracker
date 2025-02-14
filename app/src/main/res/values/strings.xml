@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">CryptoTracker</string>
+    <string name="error_request_timeout">The request timed out.</string>
+    <string name="error_too_many_requests">Oops! Looks like you exceeded your quota. Please try again after sometime.</string>
+    <string name="error_no_internet">Looks like you aren\'t connected to internet. Please check your internet connection.</string>
+    <string name="error_server_error">Its not you , its not us. Its the server.</string>
+    <string name="error_serialization">Its a serialization error , if you\'re a developer , if not , Something went wrong.</string>
+    <string name="error_unknown">Beep bop Beep bop. Its an unknown type of error.</string>
+    <string name="market_cap">Market Cap</string>
+    <string name="price">Price</string>
+    <string name="change_last_24h">Change 24h</string>
 </resources>

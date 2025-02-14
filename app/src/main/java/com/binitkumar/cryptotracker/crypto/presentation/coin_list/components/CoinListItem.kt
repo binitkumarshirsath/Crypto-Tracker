@@ -146,7 +146,7 @@ fun CoinListItemPreview() {
     }
 }
 
-internal val previewCoin = Coin(
+val previewCoin = Coin(
     id = "bitcoin",
     rank = 1,
     name = "Bitcoin",
