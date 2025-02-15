@@ -1,7 +1,6 @@
 package com.binitkumar.cryptotracker.crypto.mappers
 
 import com.binitkumar.cryptotracker.crypto.data.networking.dto.CoinDto
-import com.binitkumar.cryptotracker.crypto.data.networking.dto.CoinHistoryDto
 import com.binitkumar.cryptotracker.crypto.data.networking.dto.CoinPriceDto
 import com.binitkumar.cryptotracker.crypto.domain.Coin
 import com.binitkumar.cryptotracker.crypto.domain.CoinPrice

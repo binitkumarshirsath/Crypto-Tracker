@@ -28,7 +28,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.compose.ui.util.fastRoundToInt
 import com.binitkumar.cryptotracker.crypto.domain.Coin
 import com.binitkumar.cryptotracker.crypto.presentation.model.CoinUi
 import com.binitkumar.cryptotracker.crypto.presentation.model.toCoinUi
