@@ -54,7 +54,7 @@ class RemoteCoinDataSource(private val httpClient: HttpClient) : CoinDataSource 
                 parameter(key = "end", value = endMillis)
             }
         }.map { response ->
-            response.data.map { it ->
+            response.data.map {
                 it.toCoinPrice()
             }
         }

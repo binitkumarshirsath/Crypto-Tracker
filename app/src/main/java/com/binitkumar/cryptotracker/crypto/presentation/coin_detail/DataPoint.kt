@@ -7,7 +7,7 @@ data class DataPoint(
     val x: Float,
     val y: Float,
     val xLabel: String,
-    val yLabel: ValueLabel
+//    val yLabel: ValueLabel
 )
 
 data class ValueLabel(
