@@ -2,4 +2,11 @@
 <resources>
 
     <style name="Theme.CryptoTracker" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.MySplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/bg</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/btc</item>
+        <item name="postSplashScreenTheme">@style/Theme.CryptoTracker</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
 </resources>
