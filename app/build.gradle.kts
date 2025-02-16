@@ -61,6 +61,7 @@ dependencies {
 
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.bundles.compose)
+    implementation("androidx.core:core-splashscreen:1.0.0")
     debugImplementation(libs.bundles.compose.debug)
 
     coreLibraryDesugaring(libs.desugar.jdk.libs)

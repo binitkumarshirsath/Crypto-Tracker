@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.binitkumar.cryptotracker.core.navigation.AdaptiveNavigation
 import com.binitkumar.cryptotracker.ui.theme.CryptoTrackerTheme
 
@@ -17,6 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             CryptoTrackerTheme {
                 Scaffold { innerPadding ->
+                    installSplashScreen()
                     AdaptiveNavigation(modifier = Modifier.padding(innerPadding))
                 }
             }
